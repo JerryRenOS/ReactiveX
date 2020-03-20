@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E72AADC4E65523ED9889843 /* Pods_LogInReactiveX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF23B8C70EFC902B957C20D /* Pods_LogInReactiveX.framework */; };
 		8F54756C23F235800000D9CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F54756B23F235800000D9CF /* AppDelegate.swift */; };
 		8F54756E23F235800000D9CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F54756D23F235800000D9CF /* SceneDelegate.swift */; };
 		8F54757023F235800000D9CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F54756F23F235800000D9CF /* ViewController.swift */; };
 		8F54757323F235800000D9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F54757123F235800000D9CF /* Main.storyboard */; };
 		8F54757523F235830000D9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F54757423F235830000D9CF /* Assets.xcassets */; };
 		8F54757823F235830000D9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F54757623F235830000D9CF /* LaunchScreen.storyboard */; };
+		8F54758023F237DE0000D9CF /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F54757F23F237DE0000D9CF /* LogInViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FF23B8C70EFC902B957C20D /* Pods_LogInReactiveX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogInReactiveX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7199E9EB181A031FE1CEDAAD /* Pods-LogInReactiveX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogInReactiveX.debug.xcconfig"; path = "Target Support Files/Pods-LogInReactiveX/Pods-LogInReactiveX.debug.xcconfig"; sourceTree = "<group>"; };
 		8F54756823F235800000D9CF /* LogInReactiveX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInReactiveX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F54756B23F235800000D9CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F54756D23F235800000D9CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		8F54757423F235830000D9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F54757723F235830000D9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F54757923F235830000D9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F54757F23F237DE0000D9CF /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		979AE9877A29B3DB27F613D3 /* Pods-LogInReactiveX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogInReactiveX.release.xcconfig"; path = "Target Support Files/Pods-LogInReactiveX/Pods-LogInReactiveX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E72AADC4E65523ED9889843 /* Pods_LogInReactiveX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				8F54756A23F235800000D9CF /* LogInReactiveX */,
 				8F54756923F235800000D9CF /* Products */,
+				A4A8125B6D801C4A0728BD78 /* Pods */,
+				FAC417A2F18F7E443C132620 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,30 @@
 				8F54756B23F235800000D9CF /* AppDelegate.swift */,
 				8F54756D23F235800000D9CF /* SceneDelegate.swift */,
 				8F54756F23F235800000D9CF /* ViewController.swift */,
+				8F54757F23F237DE0000D9CF /* LogInViewModel.swift */,
 				8F54757123F235800000D9CF /* Main.storyboard */,
 				8F54757423F235830000D9CF /* Assets.xcassets */,
 				8F54757623F235830000D9CF /* LaunchScreen.storyboard */,
 				8F54757923F235830000D9CF /* Info.plist */,
 			);
 			path = LogInReactiveX;
+			sourceTree = "<group>";
+		};
+		A4A8125B6D801C4A0728BD78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7199E9EB181A031FE1CEDAAD /* Pods-LogInReactiveX.debug.xcconfig */,
+				979AE9877A29B3DB27F613D3 /* Pods-LogInReactiveX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAC417A2F18F7E443C132620 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FF23B8C70EFC902B957C20D /* Pods_LogInReactiveX.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F54757C23F235830000D9CF /* Build configuration list for PBXNativeTarget "LogInReactiveX" */;
 			buildPhases = (
+				4DD19F125046AFC724AFC371 /* [CP] Check Pods Manifest.lock */,
 				8F54756423F2357F0000D9CF /* Sources */,
 				8F54756523F2357F0000D9CF /* Frameworks */,
 				8F54756623F2357F0000D9CF /* Resources */,
+				CC80CB050D74267CC5F1429D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DD19F125046AFC724AFC371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogInReactiveX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC80CB050D74267CC5F1429D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogInReactiveX/Pods-LogInReactiveX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogInReactiveX/Pods-LogInReactiveX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LogInReactiveX/Pods-LogInReactiveX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F54756423F2357F0000D9CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F54758023F237DE0000D9CF /* LogInViewModel.swift in Sources */,
 				8F54757023F235800000D9CF /* ViewController.swift in Sources */,
 				8F54756C23F235800000D9CF /* AppDelegate.swift in Sources */,
 				8F54756E23F235800000D9CF /* SceneDelegate.swift in Sources */,
@@ -282,6 +354,7 @@
 		};
 		8F54757D23F235830000D9CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7199E9EB181A031FE1CEDAAD /* Pods-LogInReactiveX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +372,7 @@
 		};
 		8F54757E23F235830000D9CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 979AE9877A29B3DB27F613D3 /* Pods-LogInReactiveX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
