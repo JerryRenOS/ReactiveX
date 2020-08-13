@@ -1,0 +1,6 @@
+framework module Pods_ReactiveReactivity {
+  umbrella header "Pods-ReactiveReactivity-umbrella.h"
+
+  export *
+  module * { export * }
+}
