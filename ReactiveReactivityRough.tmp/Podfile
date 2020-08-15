@@ -9,5 +9,7 @@ target 'ReactiveReactivity' do
     
     pod 'RxCocoa'
     pod 'RxSwift'
+	
+    pod 'Giphy'
     
 end

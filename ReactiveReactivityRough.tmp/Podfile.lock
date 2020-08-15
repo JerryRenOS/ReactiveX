@@ -1,4 +1,19 @@
 PODS:
+  - DeepDiff (2.3.1)
+  - Giphy (2.0.1):
+    - DeepDiff
+    - libwebp
+    - PINCache
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - PINCache (2.3)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -7,20 +22,29 @@ PODS:
   - RxSwift (5.1.1)
 
 DEPENDENCIES:
+  - Giphy
   - RxCocoa
   - RxSwift
 
 SPEC REPOS:
   trunk:
+    - DeepDiff
+    - Giphy
+    - libwebp
+    - PINCache
     - RxCocoa
     - RxRelay
     - RxSwift
 
 SPEC CHECKSUMS:
+  DeepDiff: e5ae6c50d0321568e4508cec5930b9f10bb293fc
+  Giphy: 8a0a35405acbb4fdbd47e2de1c679ce4322b6d52
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 7070bfa1523f29f7ddf942bde379eb2b931f3327
+PODFILE CHECKSUM: 5f4d6dae74ca415d0d6bbf583f74a973bbe3fdbe
 
 COCOAPODS: 1.9.2
