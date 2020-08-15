@@ -1,0 +1,16 @@
+PODS:
+  - UnsplashPhotoPicker (1.1.1)
+
+DEPENDENCIES:
+  - UnsplashPhotoPicker (~> 1.1.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - UnsplashPhotoPicker
+
+SPEC CHECKSUMS:
+  UnsplashPhotoPicker: 86520e34cfded8fb4a41910bf87afe571906b4e3
+
+PODFILE CHECKSUM: 1fc5cfff439b7e54c6db4b88bd851f7a78e82f10
+
+COCOAPODS: 1.9.2

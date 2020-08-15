@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65664F39B7F48BFE72498734 /* Pods_RxSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F26606B28FBA56F90AC49C /* Pods_RxSplash.framework */; };
+		8FC3BCEA24E71846009DF722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BCE924E71846009DF722 /* AppDelegate.swift */; };
+		8FC3BCEC24E71846009DF722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BCEB24E71846009DF722 /* SceneDelegate.swift */; };
+		8FC3BCF124E71846009DF722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC3BCEF24E71846009DF722 /* Main.storyboard */; };
+		8FC3BCF324E71849009DF722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC3BCF224E71849009DF722 /* Assets.xcassets */; };
+		8FC3BCF624E71849009DF722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC3BCF424E71849009DF722 /* LaunchScreen.storyboard */; };
+		8FC3BCFE24E718A2009DF722 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BCFD24E718A2009DF722 /* SplashViewController.swift */; };
+		8FC3BD0024E718C0009DF722 /* SplashyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BCFF24E718C0009DF722 /* SplashyViewModel.swift */; };
+		8FC3BD0224E71C16009DF722 /* StorageCloset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD0124E71C16009DF722 /* StorageCloset.swift */; };
+		8FC3BD0424E7213E009DF722 /* ProtocolSplashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD0324E7213E009DF722 /* ProtocolSplashes.swift */; };
+		8FC3BD0824E73ADA009DF722 /* ImageryCacheTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD0724E73ADA009DF722 /* ImageryCacheTechnique.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60BDCD36FEB55EDD07A6665C /* Pods-RxSplash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSplash.debug.xcconfig"; path = "Target Support Files/Pods-RxSplash/Pods-RxSplash.debug.xcconfig"; sourceTree = "<group>"; };
+		73F45E0D8CF2D80602291D7D /* Pods-RxSplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSplash.release.xcconfig"; path = "Target Support Files/Pods-RxSplash/Pods-RxSplash.release.xcconfig"; sourceTree = "<group>"; };
+		8FC3BCE624E71846009DF722 /* RxSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC3BCE924E71846009DF722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FC3BCEB24E71846009DF722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8FC3BCF024E71846009DF722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FC3BCF224E71849009DF722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC3BCF524E71849009DF722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC3BCF724E71849009DF722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC3BCFD24E718A2009DF722 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8FC3BCFF24E718C0009DF722 /* SplashyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashyViewModel.swift; sourceTree = "<group>"; };
+		8FC3BD0124E71C16009DF722 /* StorageCloset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageCloset.swift; sourceTree = "<group>"; };
+		8FC3BD0324E7213E009DF722 /* ProtocolSplashes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolSplashes.swift; sourceTree = "<group>"; };
+		8FC3BD0724E73ADA009DF722 /* ImageryCacheTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageryCacheTechnique.swift; sourceTree = "<group>"; };
+		A2F26606B28FBA56F90AC49C /* Pods_RxSplash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSplash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC3BCE324E71846009DF722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65664F39B7F48BFE72498734 /* Pods_RxSplash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AF02DB18057DDFE8393FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F26606B28FBA56F90AC49C /* Pods_RxSplash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66BFF8FBD50A68EA23C045A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BDCD36FEB55EDD07A6665C /* Pods-RxSplash.debug.xcconfig */,
+				73F45E0D8CF2D80602291D7D /* Pods-RxSplash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8FC3BCDD24E71846009DF722 = {
+			isa = PBXGroup;
+			children = (
+				8FC3BCE824E71846009DF722 /* RxSplash */,
+				8FC3BCE724E71846009DF722 /* Products */,
+				66BFF8FBD50A68EA23C045A9 /* Pods */,
+				11AF02DB18057DDFE8393FBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC3BCE724E71846009DF722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC3BCE624E71846009DF722 /* RxSplash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC3BCE824E71846009DF722 /* RxSplash */ = {
+			isa = PBXGroup;
+			children = (
+				8FC3BCE924E71846009DF722 /* AppDelegate.swift */,
+				8FC3BCEB24E71846009DF722 /* SceneDelegate.swift */,
+				8FC3BCFD24E718A2009DF722 /* SplashViewController.swift */,
+				8FC3BCFF24E718C0009DF722 /* SplashyViewModel.swift */,
+				8FC3BD0124E71C16009DF722 /* StorageCloset.swift */,
+				8FC3BD0724E73ADA009DF722 /* ImageryCacheTechnique.swift */,
+				8FC3BD0324E7213E009DF722 /* ProtocolSplashes.swift */,
+				8FC3BCEF24E71846009DF722 /* Main.storyboard */,
+				8FC3BCF224E71849009DF722 /* Assets.xcassets */,
+				8FC3BCF424E71849009DF722 /* LaunchScreen.storyboard */,
+				8FC3BCF724E71849009DF722 /* Info.plist */,
+			);
+			path = RxSplash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC3BCE524E71846009DF722 /* RxSplash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC3BCFA24E71849009DF722 /* Build configuration list for PBXNativeTarget "RxSplash" */;
+			buildPhases = (
+				C68FD748D8941AF7B4EAE01C /* [CP] Check Pods Manifest.lock */,
+				8FC3BCE224E71846009DF722 /* Sources */,
+				8FC3BCE324E71846009DF722 /* Frameworks */,
+				8FC3BCE424E71846009DF722 /* Resources */,
+				94A210D93C85749F6654F422 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxSplash;
+			productName = RxSplash;
+			productReference = 8FC3BCE624E71846009DF722 /* RxSplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC3BCDE24E71846009DF722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Jerry Ren";
+				TargetAttributes = {
+					8FC3BCE524E71846009DF722 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8FC3BCE124E71846009DF722 /* Build configuration list for PBXProject "RxSplash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FC3BCDD24E71846009DF722;
+			productRefGroup = 8FC3BCE724E71846009DF722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC3BCE524E71846009DF722 /* RxSplash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC3BCE424E71846009DF722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC3BCF624E71849009DF722 /* LaunchScreen.storyboard in Resources */,
+				8FC3BCF324E71849009DF722 /* Assets.xcassets in Resources */,
+				8FC3BCF124E71846009DF722 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94A210D93C85749F6654F422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSplash/Pods-RxSplash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSplash/Pods-RxSplash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSplash/Pods-RxSplash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C68FD748D8941AF7B4EAE01C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSplash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC3BCE224E71846009DF722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC3BD0424E7213E009DF722 /* ProtocolSplashes.swift in Sources */,
+				8FC3BD0824E73ADA009DF722 /* ImageryCacheTechnique.swift in Sources */,
+				8FC3BCFE24E718A2009DF722 /* SplashViewController.swift in Sources */,
+				8FC3BD0024E718C0009DF722 /* SplashyViewModel.swift in Sources */,
+				8FC3BCEA24E71846009DF722 /* AppDelegate.swift in Sources */,
+				8FC3BD0224E71C16009DF722 /* StorageCloset.swift in Sources */,
+				8FC3BCEC24E71846009DF722 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FC3BCEF24E71846009DF722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC3BCF024E71846009DF722 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FC3BCF424E71849009DF722 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC3BCF524E71849009DF722 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FC3BCF824E71849009DF722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FC3BCF924E71849009DF722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC3BCFB24E71849009DF722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BDCD36FEB55EDD07A6665C /* Pods-RxSplash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAPS2WKL6R;
+				INFOPLIST_FILE = RxSplash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JerExplosion.RxSplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FC3BCFC24E71849009DF722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F45E0D8CF2D80602291D7D /* Pods-RxSplash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAPS2WKL6R;
+				INFOPLIST_FILE = RxSplash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JerExplosion.RxSplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC3BCE124E71846009DF722 /* Build configuration list for PBXProject "RxSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC3BCF824E71849009DF722 /* Debug */,
+				8FC3BCF924E71849009DF722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC3BCFA24E71849009DF722 /* Build configuration list for PBXNativeTarget "RxSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC3BCFB24E71849009DF722 /* Debug */,
+				8FC3BCFC24E71849009DF722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC3BCDE24E71846009DF722 /* Project object */;
+}
