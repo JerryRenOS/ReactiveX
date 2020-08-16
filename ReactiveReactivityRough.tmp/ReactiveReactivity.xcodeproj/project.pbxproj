@@ -18,6 +18,8 @@
 		8F64509824E5CE9C00E0AC94 /* RxAPIDealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F64509724E5CE9B00E0AC94 /* RxAPIDealer.swift */; };
 		8F64509A24E5DC2800E0AC94 /* ViewRxModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F64509924E5DC2800E0AC94 /* ViewRxModelViewController.swift */; };
 		8F64509C24E5DCA500E0AC94 /* ViewModelReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F64509B24E5DCA500E0AC94 /* ViewModelReactive.swift */; };
+		8FC3BD2F24E8A357009DF722 /* GraphicsInterFiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD2E24E8A357009DF722 /* GraphicsInterFiViewController.swift */; };
+		8FC3BD3124E8AA89009DF722 /* GIFManHandled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD3024E8AA89009DF722 /* GIFManHandled.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		8F64509724E5CE9B00E0AC94 /* RxAPIDealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAPIDealer.swift; sourceTree = "<group>"; };
 		8F64509924E5DC2800E0AC94 /* ViewRxModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRxModelViewController.swift; sourceTree = "<group>"; };
 		8F64509B24E5DCA500E0AC94 /* ViewModelReactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelReactive.swift; sourceTree = "<group>"; };
+		8FC3BD2E24E8A357009DF722 /* GraphicsInterFiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsInterFiViewController.swift; sourceTree = "<group>"; };
+		8FC3BD3024E8AA89009DF722 /* GIFManHandled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFManHandled.swift; sourceTree = "<group>"; };
 		FD98176A4122248CB976775C /* Pods-ReactiveReactivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveReactivity.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveReactivity/Pods-ReactiveReactivity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +99,8 @@
 				8F64509724E5CE9B00E0AC94 /* RxAPIDealer.swift */,
 				8F64509B24E5DCA500E0AC94 /* ViewModelReactive.swift */,
 				8F64509924E5DC2800E0AC94 /* ViewRxModelViewController.swift */,
+				8FC3BD2E24E8A357009DF722 /* GraphicsInterFiViewController.swift */,
+				8FC3BD3024E8AA89009DF722 /* GIFManHandled.swift */,
 				8F2F64A924E493B40024C6A9 /* Main.storyboard */,
 				8F2F64AC24E493B80024C6A9 /* Assets.xcassets */,
 				8F2F64AE24E493B80024C6A9 /* LaunchScreen.storyboard */,
@@ -221,10 +227,12 @@
 				8F2F64A824E493B40024C6A9 /* FoundationalViewController.swift in Sources */,
 				8F64509C24E5DCA500E0AC94 /* ViewModelReactive.swift in Sources */,
 				8F64509624E5972500E0AC94 /* RxTeibowAPIViewController.swift in Sources */,
+				8FC3BD3124E8AA89009DF722 /* GIFManHandled.swift in Sources */,
 				8F64509824E5CE9C00E0AC94 /* RxAPIDealer.swift in Sources */,
 				8F2F64A424E493B40024C6A9 /* AppDelegate.swift in Sources */,
 				8F64509A24E5DC2800E0AC94 /* ViewRxModelViewController.swift in Sources */,
 				8F2F64A624E493B40024C6A9 /* SceneDelegate.swift in Sources */,
+				8FC3BD2F24E8A357009DF722 /* GraphicsInterFiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
