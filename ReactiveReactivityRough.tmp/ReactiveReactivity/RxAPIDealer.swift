@@ -23,5 +23,4 @@ class RxAPIDealer {
             return Disposables.create()
         }
     }
-
 }

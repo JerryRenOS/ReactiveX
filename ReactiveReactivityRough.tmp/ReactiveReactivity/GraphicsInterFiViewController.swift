@@ -10,8 +10,6 @@ import UIKit
 import GiphyCoreSDK
 import GiphyUISDK
 
-  
-
 
 class GraphicsInterFiViewController: UIViewController {
     
@@ -29,7 +27,7 @@ class GraphicsInterFiViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-    //    giphyGoofyConfiguration()
+        giphyGoofyConfiguration()
     }
     
     func giphyGoofyConfiguration() {

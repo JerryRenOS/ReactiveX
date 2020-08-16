@@ -8,18 +8,18 @@
 
 import Foundation
 
-public func callingAPIFromRxAPIDealer(with urlString: String) -> Observable<Data?> {
-            
-        Observable<Data?>.create {  observer  in
-            URLSession.shared.dataTask(with: URL(string: urlString)!) { (data, response, erro) in
-                observer.onNext(data)
-                if erro != nil {
-                    observer.onError(erro!)
-                }
-                observer.onCompleted()
-            }.resume()
-            return Disposables.create()
-        }
-    }
+//public func callingAPIFromRxAPIDealer(with urlString: String) -> Observable<Data?> {
+//            
+//        Observable<Data?>.create {  observer  in
+//            URLSession.shared.dataTask(with: URL(string: urlString)!) { (data, response, erro) in
+//                observer.onNext(data)
+//                if erro != nil {
+//                    observer.onError(erro!)
+//                }
+//                observer.onCompleted()
+//            }.resume()
+//            return Disposables.create()
+//        }
+//    }
 
-}
+
