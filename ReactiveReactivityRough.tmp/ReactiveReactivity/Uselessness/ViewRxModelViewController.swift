@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa  
 import UIKit
 
-class ViewRxModelViewController: UIViewController {
+class ViewRxModelViewController: VelocityAnimaViewController {
 
     let disposeBaggy = DisposeBag()
     let reactiveViewModel = ReactiveViewModel.init()

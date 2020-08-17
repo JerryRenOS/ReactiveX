@@ -27,7 +27,7 @@ extension UIImage {
                 return nil
         }
         guard let imageData = try? Data(contentsOf: bundleURL!) else {
-            print("image named \"\(gifUrl)\" turning into NSData")
+            print("image named \"\(gifUrl)\" turning into NS_Data")
             return nil
         }
         return manHandleGIFWithData(imageData)

@@ -20,11 +20,13 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - ViewAnimator (2.7.0)
 
 DEPENDENCIES:
   - Giphy
   - RxCocoa
   - RxSwift
+  - ViewAnimator
 
 SPEC REPOS:
   trunk:
@@ -35,6 +37,7 @@ SPEC REPOS:
     - RxCocoa
     - RxRelay
     - RxSwift
+    - ViewAnimator
 
 SPEC CHECKSUMS:
   DeepDiff: e5ae6c50d0321568e4508cec5930b9f10bb293fc
@@ -44,7 +47,8 @@ SPEC CHECKSUMS:
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
 
-PODFILE CHECKSUM: 5f4d6dae74ca415d0d6bbf583f74a973bbe3fdbe
+PODFILE CHECKSUM: 9f561591456deff9461cebd95ccab62b881ca714
 
 COCOAPODS: 1.9.2

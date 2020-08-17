@@ -9,52 +9,42 @@
 import ImageIO
 import UIKit
 
-fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
-  switch (lhs, rhs) {
-  case let (l?, r?):
-    return l < r
-  case (nil, _?):
-    return true
-  default:
-    return false
-  }
-}
 
 extension UIImage {
     
-    public class func gifImageWithData(_ data: Data) -> UIImage? {
+    public class func manHandleGIFWithData(_ data: Data) -> UIImage? {
         guard let source = CGImageSourceCreateWithData(data as CFData, nil) else {
-            print("image doesn't exist")
+            print("image ain't exist")
             return nil
         }
         return UIImage.animatedImageWithSource(source)
     }
     
-    public class func gifImageWithURL(_ gifUrl:String) -> UIImage? {
+    public class func manHandleGIFWithURL(_ gifUrl:String) -> UIImage? {
         guard let bundleURL:URL? = URL(string: gifUrl)
             else {
-                print("image named \"\(gifUrl)\" doesn't exist")
+                print("image named \"\(gifUrl)\" ain't exist")
                 return nil
         }
         guard let imageData = try? Data(contentsOf: bundleURL!) else {
-            print("image named \"\(gifUrl)\" into NSData")
+            print("image named \"\(gifUrl)\" turning into NSData")
             return nil
         }
-        return gifImageWithData(imageData)
+        return manHandleGIFWithData(imageData)
     }
     
-    public class func gifImageWithName(_ name: String) -> UIImage? {
+    public class func manHandleGIFWithName(_ name: String) -> UIImage? {
         guard let bundleURL = Bundle.main
             .url(forResource: name, withExtension: "gif") else {
-                print("SwiftGif: This image named \"\(name)\" does not exist")
+                print("SwiftGif: This image named \"\(name)\" ain't exist")
                 return nil
         }
         guard let imageData = try? Data(contentsOf: bundleURL) else {
-            print("SwiftGif: Cannot turn image named \"\(name)\" into NSData")
+            print("SwiftGif: unable to turn image named \"\(name)\" into NS_Data")
             return nil
         }
         
-        return gifImageWithData(imageData)
+        return manHandleGIFWithData(imageData)
     }
     
     class func delayForImageAtIndex(_ index: Int, source: CGImageSource!) -> Double {
@@ -105,7 +95,6 @@ extension UIImage {
         var rest: Int
         while true {
             rest = a! % b!
-            
             if rest == 0 {
                 return b!
             } else {
@@ -139,7 +128,7 @@ extension UIImage {
             
             let delaySeconds = UIImage.delayForImageAtIndex(Int(i),
                 source: source)
-            delays.append(Int(delaySeconds * 1000.0)) // Seconds to ms
+            delays.append(Int(delaySeconds * 1000.0))
         }
         
         let duration: Int = {
@@ -165,11 +154,22 @@ extension UIImage {
             }
         }
         
-        let animation = UIImage.animatedImage(with: frames,
+        let anima = UIImage.animatedImage(with: frames,
             duration: Double(duration) / 1000.0)
         
-        return animation
+        return anima
     }
 }
 
+// MARS: - 水性杨花
 
+fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
+  switch (lhs, rhs) {
+  case let (l?, r?):
+    return l < r
+  case (nil, _?):
+    return true
+  default:
+    return false
+  }
+}
