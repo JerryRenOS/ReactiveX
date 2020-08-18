@@ -28,9 +28,6 @@ class RxAPIDealer {
     }
 }
 
-
-
-
 // MARS: - in case that ain't work, try this
 
 //class RxAPIDealer {

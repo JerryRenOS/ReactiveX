@@ -6,6 +6,8 @@ target 'RxGraphicsInterFi' do
   use_frameworks!
 
   # Pods for RxGraphicsInterFi
+  
+    pod "ViewAnimator"
 
     pod 'RxCocoa'
     pod 'RxSwift'

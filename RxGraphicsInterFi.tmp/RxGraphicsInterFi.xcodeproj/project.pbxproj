@@ -20,6 +20,7 @@
 		8FC3BD3824E8E200009DF722 /* GiphyModeru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD3724E8E200009DF722 /* GiphyModeru.swift */; };
 		8FC3BD3A24E8ED8C009DF722 /* StorageCloset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD3924E8ED8C009DF722 /* StorageCloset.swift */; };
 		8FC3BD3C24E8F094009DF722 /* RxAPIDealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD3B24E8F094009DF722 /* RxAPIDealer.swift */; };
+		8FCCBBBA24EC83A000062484 /* VelocityAnimaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCBBB924EC83A000062484 /* VelocityAnimaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8FC3BD3724E8E200009DF722 /* GiphyModeru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyModeru.swift; sourceTree = "<group>"; };
 		8FC3BD3924E8ED8C009DF722 /* StorageCloset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageCloset.swift; sourceTree = "<group>"; };
 		8FC3BD3B24E8F094009DF722 /* RxAPIDealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAPIDealer.swift; sourceTree = "<group>"; };
+		8FCCBBB924EC83A000062484 /* VelocityAnimaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityAnimaController.swift; sourceTree = "<group>"; };
 		AC0B414A8AE0A8771A2AEDE6 /* Pods_RxGraphicsInterFi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGraphicsInterFi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AE82BC0B3A3241F2B77583 /* Pods-RxGraphicsInterFi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGraphicsInterFi.debug.xcconfig"; path = "Target Support Files/Pods-RxGraphicsInterFi/Pods-RxGraphicsInterFi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,10 +88,11 @@
 			children = (
 				8FC3BD1A24E8A295009DF722 /* AppDelegate.swift */,
 				8FC3BD1C24E8A295009DF722 /* SceneDelegate.swift */,
-				8FC3BD3324E8DFE3009DF722 /* GraphicsInterFiViewController.swift */,
 				8FC3BD3524E8E05A009DF722 /* GIFManHandled.swift */,
 				8FC3BD3724E8E200009DF722 /* GiphyModeru.swift */,
 				8FC3BD3924E8ED8C009DF722 /* StorageCloset.swift */,
+				8FCCBBBC24EC867100062484 /* Views */,
+				8FCCBBBB24EC845900062484 /* Controllers */,
 				8FC3BD3B24E8F094009DF722 /* RxAPIDealer.swift */,
 				8F7094E024EAD3CE00786663 /* ReactiveViewModel.swift */,
 				8FC3BD2024E8A295009DF722 /* Main.storyboard */,
@@ -99,6 +102,22 @@
 				8FC3BD2824E8A297009DF722 /* Info.plist */,
 			);
 			path = RxGraphicsInterFi;
+			sourceTree = "<group>";
+		};
+		8FCCBBBB24EC845900062484 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FC3BD3324E8DFE3009DF722 /* GraphicsInterFiViewController.swift */,
+				8FCCBBB924EC83A000062484 /* VelocityAnimaController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8FCCBBBC24EC867100062484 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F8376A284B0141121163B473 /* Frameworks */ = {
@@ -233,6 +252,7 @@
 				8FC3BD3A24E8ED8C009DF722 /* StorageCloset.swift in Sources */,
 				8FC3BD1B24E8A295009DF722 /* AppDelegate.swift in Sources */,
 				8FC3BD1D24E8A295009DF722 /* SceneDelegate.swift in Sources */,
+				8FCCBBBA24EC83A000062484 /* VelocityAnimaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
