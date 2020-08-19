@@ -9,7 +9,6 @@
 import ImageIO
 import UIKit
              
-
 extension UIImage {
     
     public class func manHandleGIFWithData(_ data: Data) -> UIImage? {

@@ -10,6 +10,8 @@
 		1F5A1A9A545E318638977AAE /* Pods_RxGraphicsInterFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0B414A8AE0A8771A2AEDE6 /* Pods_RxGraphicsInterFi.framework */; };
 		8F55FC0324E9B785001F5D05 /* JustInCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F55FC0224E9B785001F5D05 /* JustInCase.swift */; };
 		8F7094E124EAD3CE00786663 /* ReactiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7094E024EAD3CE00786663 /* ReactiveViewModel.swift */; };
+		8F7C91DD24ECD33600AA0CE3 /* ReactiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C91DC24ECD33600AA0CE3 /* ReactiveCell.swift */; };
+		8F7C91DF24ECD36100AA0CE3 /* ReactiveCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C91DE24ECD36100AA0CE3 /* ReactiveCollectionCell.swift */; };
 		8FC3BD1B24E8A295009DF722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD1A24E8A295009DF722 /* AppDelegate.swift */; };
 		8FC3BD1D24E8A295009DF722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3BD1C24E8A295009DF722 /* SceneDelegate.swift */; };
 		8FC3BD2224E8A295009DF722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC3BD2024E8A295009DF722 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		352A11DD991038DFBF0A3AD9 /* Pods-RxGraphicsInterFi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGraphicsInterFi.release.xcconfig"; path = "Target Support Files/Pods-RxGraphicsInterFi/Pods-RxGraphicsInterFi.release.xcconfig"; sourceTree = "<group>"; };
 		8F55FC0224E9B785001F5D05 /* JustInCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustInCase.swift; sourceTree = "<group>"; };
 		8F7094E024EAD3CE00786663 /* ReactiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveViewModel.swift; sourceTree = "<group>"; };
+		8F7C91DC24ECD33600AA0CE3 /* ReactiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCell.swift; sourceTree = "<group>"; };
+		8F7C91DE24ECD36100AA0CE3 /* ReactiveCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCollectionCell.swift; sourceTree = "<group>"; };
 		8FC3BD1724E8A295009DF722 /* RxGraphicsInterFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxGraphicsInterFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC3BD1A24E8A295009DF722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FC3BD1C24E8A295009DF722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,17 +92,14 @@
 			children = (
 				8FC3BD1A24E8A295009DF722 /* AppDelegate.swift */,
 				8FC3BD1C24E8A295009DF722 /* SceneDelegate.swift */,
-				8FC3BD3524E8E05A009DF722 /* GIFManHandled.swift */,
-				8FC3BD3724E8E200009DF722 /* GiphyModeru.swift */,
-				8FC3BD3924E8ED8C009DF722 /* StorageCloset.swift */,
+				8FCCBBBD24EC889F00062484 /* Models */,
 				8FCCBBBC24EC867100062484 /* Views */,
 				8FCCBBBB24EC845900062484 /* Controllers */,
 				8FC3BD3B24E8F094009DF722 /* RxAPIDealer.swift */,
-				8F7094E024EAD3CE00786663 /* ReactiveViewModel.swift */,
+				8FCCBBBE24EC88A900062484 /* ViewModels */,
 				8FC3BD2024E8A295009DF722 /* Main.storyboard */,
 				8FC3BD2324E8A297009DF722 /* Assets.xcassets */,
 				8FC3BD2524E8A297009DF722 /* LaunchScreen.storyboard */,
-				8F55FC0224E9B785001F5D05 /* JustInCase.swift */,
 				8FC3BD2824E8A297009DF722 /* Info.plist */,
 			);
 			path = RxGraphicsInterFi;
@@ -116,8 +117,29 @@
 		8FCCBBBC24EC867100062484 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8FC3BD3524E8E05A009DF722 /* GIFManHandled.swift */,
+				8F7C91DC24ECD33600AA0CE3 /* ReactiveCell.swift */,
+				8F7C91DE24ECD36100AA0CE3 /* ReactiveCollectionCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8FCCBBBD24EC889F00062484 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FC3BD3724E8E200009DF722 /* GiphyModeru.swift */,
+				8FC3BD3924E8ED8C009DF722 /* StorageCloset.swift */,
+				8F55FC0224E9B785001F5D05 /* JustInCase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FCCBBBE24EC88A900062484 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8F7094E024EAD3CE00786663 /* ReactiveViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		F8376A284B0141121163B473 /* Frameworks */ = {
@@ -247,10 +269,12 @@
 				8FC3BD3624E8E05A009DF722 /* GIFManHandled.swift in Sources */,
 				8FC3BD3424E8DFE3009DF722 /* GraphicsInterFiViewController.swift in Sources */,
 				8F7094E124EAD3CE00786663 /* ReactiveViewModel.swift in Sources */,
+				8F7C91DD24ECD33600AA0CE3 /* ReactiveCell.swift in Sources */,
 				8FC3BD3C24E8F094009DF722 /* RxAPIDealer.swift in Sources */,
 				8F55FC0324E9B785001F5D05 /* JustInCase.swift in Sources */,
 				8FC3BD3A24E8ED8C009DF722 /* StorageCloset.swift in Sources */,
 				8FC3BD1B24E8A295009DF722 /* AppDelegate.swift in Sources */,
+				8F7C91DF24ECD36100AA0CE3 /* ReactiveCollectionCell.swift in Sources */,
 				8FC3BD1D24E8A295009DF722 /* SceneDelegate.swift in Sources */,
 				8FCCBBBA24EC83A000062484 /* VelocityAnimaController.swift in Sources */,
 			);
