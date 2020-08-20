@@ -16,6 +16,8 @@ class GraphicsInterFiViewController:  VelocityAnimaController {
     @IBOutlet weak var reactiveTeibow: UITableView!
 
     let disposeBaggy = DisposeBag()
+    let reactiveViewModel = ReactiveViewModel.init()
+
 
     @IBOutlet weak var imageVPurelyForTestos: UIImageView!
     override func viewDidLoad() {
@@ -26,6 +28,13 @@ class GraphicsInterFiViewController:  VelocityAnimaController {
         reactiveTeibow.dataSource = self
         reactiveTeibow.delegate = self
     }
+    
+    func relayingDataSource() {
+        
+    //    reactiveViewModel.relayedDataSource.bind(to: )
+    }
+    
+    
 }
 
 extension GraphicsInterFiViewController: UITableViewDataSource, UITableViewDelegate {

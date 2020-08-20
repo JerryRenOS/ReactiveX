@@ -12,7 +12,9 @@ import UIKit
 
 class ReactiveViewModel {
     
-    let relayedDataSource: BehaviorRelay<GiphyModeruBigBoss> = BehaviorRelay(value: GiphyModeruBigBoss(data: [GiphyModeru].init()))  //check this later
+    let newRelayedDatasource: BehaviorRelay<GiphyModeruBigBoss> = BehaviorRelay(value: GiphyModeruBigBoss(data: [GiphyModeru(images: Images(original: Original(url: "")))]))  //胡编乱造
+    
+  //  let relayedDataSource: BehaviorRelay<GiphyModeruBigBoss> = BehaviorRelay(value: GiphyModeruBigBoss(data: [GiphyModeru].init()))  //check this later
     var disposeBaggy = DisposeBag()
     var erro: Error?
     

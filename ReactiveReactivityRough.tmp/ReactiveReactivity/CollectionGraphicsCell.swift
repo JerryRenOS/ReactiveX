@@ -8,6 +8,4 @@
 
 import UIKit
 
-class InterFiGraphicsCollectionCell: UICollectionViewCell {
-      
-}
+class InterFiGraphicsCollectionCell: UICollectionViewCell { }

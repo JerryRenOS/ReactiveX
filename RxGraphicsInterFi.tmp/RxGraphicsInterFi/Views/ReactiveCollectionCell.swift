@@ -9,5 +9,5 @@
 import UIKit
 
 class ReactiveCollectionCell: UICollectionViewCell {
-    
+    @IBOutlet weak var rxCoGiphyImageView: UIImageView!
 }
