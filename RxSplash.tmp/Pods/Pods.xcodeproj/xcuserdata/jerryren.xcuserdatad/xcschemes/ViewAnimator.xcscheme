@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA8593B52BC99EFED6E68A56FC46C268"
-               BuildableName = "Pods-RxSplash.framework"
-               BlueprintName = "Pods-RxSplash"
+               BlueprintIdentifier = "91BFC2827E7E6E2B51AB2CFF58AC6317"
+               BuildableName = "ViewAnimator.framework"
+               BlueprintName = "ViewAnimator"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

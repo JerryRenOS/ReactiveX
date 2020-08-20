@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-RxSplash/Pods-RxSplash-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/UnsplashPhotoPicker/UnsplashPhotoPicker.framework
+${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework

@@ -1,16 +1,20 @@
 PODS:
   - UnsplashPhotoPicker (1.1.1)
+  - ViewAnimator (2.7.0)
 
 DEPENDENCIES:
   - UnsplashPhotoPicker (~> 1.1.1)
+  - ViewAnimator
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - UnsplashPhotoPicker
+    - ViewAnimator
 
 SPEC CHECKSUMS:
   UnsplashPhotoPicker: 86520e34cfded8fb4a41910bf87afe571906b4e3
+  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
 
-PODFILE CHECKSUM: 1fc5cfff439b7e54c6db4b88bd851f7a78e82f10
+PODFILE CHECKSUM: 4f81fc47209e58874c0b969506bc21eca893ef93
 
 COCOAPODS: 1.9.2

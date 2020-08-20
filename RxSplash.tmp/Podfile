@@ -6,6 +6,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'RxSplash' do
   
   use_frameworks!
+  
+  pod 'ViewAnimator'
 
   pod 'UnsplashPhotoPicker', '~> 1.1.1'
 
