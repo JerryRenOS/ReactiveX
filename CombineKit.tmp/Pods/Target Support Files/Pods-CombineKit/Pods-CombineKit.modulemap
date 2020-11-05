@@ -1,0 +1,6 @@
+framework module Pods_CombineKit {
+  umbrella header "Pods-CombineKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
