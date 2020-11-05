@@ -16,31 +16,31 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        //_________________________________________________________
+        //_______________________________________________________
         
-//        guard let windowScene = (scene as? UIWindowScene) else { return }
-//
-//        window = UIWindow(windowScene: windowScene)
-//        window?.rootViewController = InterfacingSwiftUIViewController()
-//
-//            // BineViewController()
-//
-//        window?.makeKeyAndVisible()
-        
-        //_____________________________ 上面是之前的切入点
-        
-        let contentView = ContentView()
+        guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        // Use a UIHostingController as window root view controller.
-        if let windowScene = scene as? UIWindowScene {
-            let window = UIWindow(windowScene: windowScene)
-            
-            // MARS: - 底下contentView 改动 - 加上了 .environmentObject
-            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(sharedEnvironmentalProperties))
-            
-            self.window = window
-            window.makeKeyAndVisible()
-        }
+        window = UIWindow(windowScene: windowScene)
+        window?.rootViewController = InterfacingSwiftUIViewController()
+
+            // BineViewController()
+
+        window?.makeKeyAndVisible()
+        
+        //_____________________________ 上面是之前的切入点 ________________
+        
+//        let contentView = ContentView()
+//
+//        // Use a UIHostingController as window root view controller.
+//        if let windowScene = scene as? UIWindowScene {
+//            let window = UIWindow(windowScene: windowScene)
+//
+//            // MARS: - 底下contentView 改动 - 加上了 .environmentObject
+//            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(sharedEnvironmentalProperties))
+//
+//            self.window = window
+//            window.makeKeyAndVisible()
+//        }
 
     }
 
