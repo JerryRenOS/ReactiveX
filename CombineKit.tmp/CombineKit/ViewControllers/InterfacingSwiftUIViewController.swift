@@ -10,7 +10,7 @@ import SwiftUI
 
 class InterfacingSwiftUIViewController: UIViewController {
     
-    fileprivate let contentViewInHost = UIHostingController(rootView: UISwift())
+    fileprivate let contentViewInHost = UIHostingController(rootView: ContentView())
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .lightGray //
