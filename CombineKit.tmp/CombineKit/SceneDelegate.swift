@@ -21,9 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = InterfacingSwiftUIViewController()
-
-            // BineViewController()
+ //       window?.rootViewController = InterfacingSwiftUIViewController()
+        window?.rootViewController = BineViewController()
 
         window?.makeKeyAndVisible()
         

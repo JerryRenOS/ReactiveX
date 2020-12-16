@@ -10,6 +10,8 @@ import Combine
 
 class BineViewController: UIViewController {
     
+    let cancellableForSearch = [AnyCancellable]()
+    
     var iproductModel: IProductModel? {
         didSet {
             // reload tableview here
@@ -33,6 +35,7 @@ class BineViewController: UIViewController {
         super.viewDidLoad()
  //       view.translatesAutoresizingMaskIntoConstraints = false
         fetchingProducts()
+        
         combTable.dataSource = self
         combTable.delegate = self
         
@@ -40,8 +43,9 @@ class BineViewController: UIViewController {
         view.backgroundColor = .white
         
         combTable.tableFooterView = UIView() // - get rid of the unused bottom part of the table
+   //     print(UIFont.familyNames)
         
-        print(UIFont.familyNames)
+        searchWithCombine()
     }
     
     override func viewDidLayoutSubviews() {
@@ -67,6 +71,4 @@ class BineViewController: UIViewController {
                     print("iproduct trackname is - ", iproductModel.results[0].trackName)
             })
     }
-    
-    
 }

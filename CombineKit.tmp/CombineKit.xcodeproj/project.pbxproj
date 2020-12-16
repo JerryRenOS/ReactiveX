@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E7A7BEDA82105CBCA4FDCC1 /* Pods_CombineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D357D5BE822BF9DCF86E6CA /* Pods_CombineKit.framework */; };
+		8F4B6A37258A9A1D00C7187E /* VersatileSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B6A36258A9A1D00C7187E /* VersatileSearchBar.swift */; };
 		8FABAFC225531590001874DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABAFC125531590001874DE /* AppDelegate.swift */; };
 		8FABAFC425531590001874DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABAFC325531590001874DE /* SceneDelegate.swift */; };
 		8FABAFC625531590001874DE /* CombineDataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABAFC525531590001874DE /* CombineDataSourceViewController.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		0A94AADFC0A2FBC8CD1A152C /* Pods-CombineKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineKit.release.xcconfig"; path = "Target Support Files/Pods-CombineKit/Pods-CombineKit.release.xcconfig"; sourceTree = "<group>"; };
 		6D357D5BE822BF9DCF86E6CA /* Pods_CombineKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4B6A36258A9A1D00C7187E /* VersatileSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersatileSearchBar.swift; sourceTree = "<group>"; };
 		8FABAFBE25531590001874DE /* CombineKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FABAFC125531590001874DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FABAFC325531590001874DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				8FABAFE725532A76001874DE /* CustomizableCombineCell.swift */,
 				8FABAFF025532B6F001874DE /* BineTableExtensions.swift */,
+				8F4B6A36258A9A1D00C7187E /* VersatileSearchBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				8FABAFD725531618001874DE /* BineViewController.swift in Sources */,
 				8FABAFC625531590001874DE /* CombineDataSourceViewController.swift in Sources */,
 				8FABB0172553B91E001874DE /* SwiftickDotUI.swift in Sources */,
+				8F4B6A37258A9A1D00C7187E /* VersatileSearchBar.swift in Sources */,
 				8FABAFC225531590001874DE /* AppDelegate.swift in Sources */,
 				8FABB00F25536165001874DE /* InterfacingSwiftUIViewController.swift in Sources */,
 				8FABAFC425531590001874DE /* SceneDelegate.swift in Sources */,
