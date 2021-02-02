@@ -22,7 +22,6 @@
 		8FABAFF125532B6F001874DE /* BineTableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABAFF025532B6F001874DE /* BineTableExtensions.swift */; };
 		8FABB00F25536165001874DE /* InterfacingSwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABB00E25536165001874DE /* InterfacingSwiftUIViewController.swift */; };
 		8FABB01225536C32001874DE /* UISwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABB01125536C32001874DE /* UISwift.swift */; };
-		8FABB0172553B91E001874DE /* SwiftickDotUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABB0162553B91E001874DE /* SwiftickDotUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 		8FABAFF025532B6F001874DE /* BineTableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BineTableExtensions.swift; sourceTree = "<group>"; };
 		8FABB00E25536165001874DE /* InterfacingSwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfacingSwiftUIViewController.swift; sourceTree = "<group>"; };
 		8FABB01125536C32001874DE /* UISwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwift.swift; sourceTree = "<group>"; };
-		8FABB0162553B91E001874DE /* SwiftickDotUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftickDotUI.swift; sourceTree = "<group>"; };
 		C56349CDA1BC2C5763EDAC00 /* Pods-CombineKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineKit.debug.xcconfig"; path = "Target Support Files/Pods-CombineKit/Pods-CombineKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +90,6 @@
 			children = (
 				8FABAFC125531590001874DE /* AppDelegate.swift */,
 				8FABAFC325531590001874DE /* SceneDelegate.swift */,
-				8FABB0192553B93C001874DE /* SwiftUI Views */,
 				8FABAFED25532AF9001874DE /* ViewControllers */,
 				8FABAFEC25532AEE001874DE /* Models */,
 				8FABAFEE25532B07001874DE /* Networking */,
@@ -145,17 +142,9 @@
 			children = (
 				8FABAFE725532A76001874DE /* CustomizableCombineCell.swift */,
 				8FABAFF025532B6F001874DE /* BineTableExtensions.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		8FABB0192553B93C001874DE /* SwiftUI Views */ = {
-			isa = PBXGroup;
-			children = (
-				8FABB0162553B91E001874DE /* SwiftickDotUI.swift */,
 				8FABB01125536C32001874DE /* UISwift.swift */,
 			);
-			path = "SwiftUI Views";
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EC69AA32EBC43485E3CBFDC8 /* Frameworks */ = {
@@ -285,7 +274,6 @@
 				8FABB01225536C32001874DE /* UISwift.swift in Sources */,
 				8FABAFD725531618001874DE /* BineViewController.swift in Sources */,
 				8FABAFC625531590001874DE /* CombineDataSourceViewController.swift in Sources */,
-				8FABB0172553B91E001874DE /* SwiftickDotUI.swift in Sources */,
 				8FABAFC225531590001874DE /* AppDelegate.swift in Sources */,
 				8FABB00F25536165001874DE /* InterfacingSwiftUIViewController.swift in Sources */,
 				8FABAFC425531590001874DE /* SceneDelegate.swift in Sources */,
