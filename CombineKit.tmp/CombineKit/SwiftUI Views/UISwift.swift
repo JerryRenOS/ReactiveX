@@ -8,25 +8,10 @@
 import SwiftUI
 
 struct UISwift: View {
-    
-    @State private var imagery: Image?
-    @State private var showingImagePicka = false
-    
     var body: some View {
-        VStack {
-            imagery?.resizable().scaledToFit()
-
-            Button(action: {
-                showingImagePicka = !showingImagePicka
-            }, label: {
-                Text("UISwift Clickable").padding()
-                    .foregroundColor(.gray)
-                    .frame(width: 170, height: 100, alignment: .center)
-            })
-            .sheet(isPresented: $showingImagePicka) {
-                ImagePicka()
-            }
-        }
+        Text("UISwift in VC").padding()
+            .foregroundColor(.gray)
+            .frame(width: 170, height: 170, alignment: .center)
     }
 }
 
@@ -35,12 +20,3 @@ struct UISwift_Previews: PreviewProvider {
         UISwift()
     }
 }
-
-class SharedEnvironmentalProperties: ObservableObject {
-    @Published var sharedUIColor: UIColor = .gray
-}
-
-// inside body earlier _______________
-// Text("UISwift").padding()
-//            .foregroundColor(.gray)
-//            .frame(width: 170, height: 170, alignment: .center)
