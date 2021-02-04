@@ -1,0 +1,16 @@
+PODS:
+  - CombineDataSources (0.2.5)
+
+DEPENDENCIES:
+  - CombineDataSources
+
+SPEC REPOS:
+  trunk:
+    - CombineDataSources
+
+SPEC CHECKSUMS:
+  CombineDataSources: dcbc3b06a038ffdf620b3b4533d3ecaf76ca6a2e
+
+PODFILE CHECKSUM: 9e910a7f4039486b145d9403841e4f9baefeaf34
+
+COCOAPODS: 1.9.2
