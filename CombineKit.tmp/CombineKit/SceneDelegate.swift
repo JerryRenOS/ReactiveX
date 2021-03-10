@@ -6,21 +6,41 @@
 //
 
 import UIKit
+import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
+    var sharedEnvironmentalProperties = SharedEnvironmentalProperties()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = InterfacingSwiftUIViewController()
+        //_________________________________________________________
+        
+//        guard let windowScene = (scene as? UIWindowScene) else { return }
+//
+//        window = UIWindow(windowScene: windowScene)
+//        window?.rootViewController = InterfacingSwiftUIViewController()
+//
+//            // BineViewController()
+//
+//        window?.makeKeyAndVisible()
+        
+        //_____________________________ 上面是之前的切入点
+        
+        let contentView = ContentView()
+
+        // Use a UIHostingController as window root view controller.
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
             
-            // BineViewController()
-        
-        window?.makeKeyAndVisible()
+            // MARS: - 底下contentView 改动 - 加上了 .environmentObject
+            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(sharedEnvironmentalProperties))
+            
+            self.window = window
+            window.makeKeyAndVisible()
+        }
 
     }
 
